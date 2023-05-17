@@ -1,0 +1,1894 @@
+{
+  "CallbackList": {
+    "_type": "echo.containers.CallbackList",
+    "values": [
+      "ImageLayerState",
+      "ImageSubsetLayerState",
+      "ImageSubsetLayerState_0",
+      "ImageSubsetLayerState_1",
+      "ImageSubsetLayerState_2",
+      "ImageSubsetLayerState_3",
+      "ImageSubsetLayerState_4",
+      "ImageSubsetLayerState_5"
+    ]
+  },
+  "CallbackList_0": {
+    "_type": "echo.containers.CallbackList",
+    "values": [
+      "HistogramLayerState",
+      "HistogramLayerState_0",
+      "HistogramLayerState_1",
+      "HistogramLayerState_2",
+      "HistogramLayerState_3",
+      "HistogramLayerState_4",
+      "HistogramLayerState_5",
+      "HistogramLayerState_6"
+    ]
+  },
+  "CallbackList_1": {
+    "_type": "echo.containers.CallbackList",
+    "values": [
+      "ScatterLayerState",
+      "ScatterLayerState_0",
+      "ScatterLayerState_1",
+      "ScatterLayerState_2",
+      "ScatterLayerState_3",
+      "ScatterLayerState_4",
+      "ScatterLayerState_5",
+      "ScatterLayerState_6"
+    ]
+  },
+  "CategoricalComponent": {
+    "_type": "glue.core.component.CategoricalComponent",
+    "log": "LoadLog_0",
+    "log_item": 12
+  },
+  "CircularROI": {
+    "_type": "glue.core.roi.CircularROI",
+    "radius": 99.15835869807802,
+    "xc": 804.3585739816181,
+    "yc": 403.01277456474054
+  },
+  "Component": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog",
+    "log_item": 4
+  },
+  "ComponentLink": {
+    "_type": "glue.core.component_link.ComponentLink",
+    "frm": [
+      "Right Ascension"
+    ],
+    "inverse": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.link_helpers.identity"
+    },
+    "to": [
+      "RAJ2000"
+    ],
+    "using": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.link_helpers.identity"
+    }
+  },
+  "ComponentLink_0": {
+    "_type": "glue.core.component_link.ComponentLink",
+    "frm": [
+      "Declination"
+    ],
+    "inverse": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.link_helpers.identity"
+    },
+    "to": [
+      "DEJ2000"
+    ],
+    "using": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.link_helpers.identity"
+    }
+  },
+  "Component_0": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 1
+  },
+  "Component_1": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 2
+  },
+  "Component_10": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 11
+  },
+  "Component_11": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 13
+  },
+  "Component_12": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 14
+  },
+  "Component_2": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 3
+  },
+  "Component_3": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 4
+  },
+  "Component_4": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 5
+  },
+  "Component_5": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 6
+  },
+  "Component_6": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 7
+  },
+  "Component_7": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 8
+  },
+  "Component_8": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 9
+  },
+  "Component_9": {
+    "_type": "glue.core.component.Component",
+    "log": "LoadLog_0",
+    "log_item": 10
+  },
+  "CoordinateComponent": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": false
+  },
+  "CoordinateComponent_0": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 1,
+    "world": false
+  },
+  "CoordinateComponent_1": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": true
+  },
+  "CoordinateComponent_2": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 1,
+    "world": true
+  },
+  "CoordinateComponent_3": {
+    "_type": "glue.core.component.CoordinateComponent",
+    "axis": 0,
+    "world": false
+  },
+  "DEJ2000": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "DEJ2000"
+  },
+  "DataCollection": {
+    "_protocol": 4,
+    "_type": "glue.core.data_collection.DataCollection",
+    "cids": [
+      "Pixel Axis 0 [y]",
+      "Pixel Axis 1 [x]",
+      "Declination",
+      "Right Ascension",
+      "PRIMARY",
+      "Pixel Axis 0 [x]",
+      "ID",
+      "RAJ2000",
+      "DEJ2000",
+      "Jmag",
+      "Hmag",
+      "Ksmag",
+      "__3.6_",
+      "__4.5_",
+      "__5.8_",
+      "__8.0_",
+      "__24_",
+      "Type",
+      "__4.5__-__5.8_",
+      "__5.8__-__8.0_"
+    ],
+    "components": [
+      "CoordinateComponent",
+      "CoordinateComponent_0",
+      "CoordinateComponent_1",
+      "CoordinateComponent_2",
+      "Component",
+      "CoordinateComponent_3",
+      "Component_0",
+      "Component_1",
+      "Component_2",
+      "Component_3",
+      "Component_4",
+      "Component_5",
+      "Component_6",
+      "Component_7",
+      "Component_8",
+      "Component_9",
+      "Component_10",
+      "CategoricalComponent",
+      "Component_11",
+      "Component_12"
+    ],
+    "data": [
+      "w5",
+      "Point Sources"
+    ],
+    "groups": [
+      "Subset 3",
+      "Subset 4",
+      "Subset 5",
+      "Subset 6",
+      "Subset 7",
+      "Subset 8",
+      "Subset 9"
+    ],
+    "links": [
+      "ComponentLink",
+      "ComponentLink_0"
+    ],
+    "subset_group_count": 9
+  },
+  "Declination": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Declination"
+  },
+  "HistogramLayerState": {
+    "_type": "glue.viewers.histogram.state.HistogramLayerState",
+    "values": {
+      "alpha": 0.8,
+      "color": "st__#ececec",
+      "layer": "w5",
+      "visible": true,
+      "zorder": 1
+    }
+  },
+  "HistogramLayerState_0": {
+    "_type": "glue.viewers.histogram.state.HistogramLayerState",
+    "values": {
+      "alpha": 0.52,
+      "color": "st__#1f78b4",
+      "layer": "Subset 3_0",
+      "visible": true,
+      "zorder": 2
+    }
+  },
+  "HistogramLayerState_1": {
+    "_type": "glue.viewers.histogram.state.HistogramLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#8c510a",
+      "layer": "Subset 4_0",
+      "visible": true,
+      "zorder": 3
+    }
+  },
+  "HistogramLayerState_2": {
+    "_type": "glue.viewers.histogram.state.HistogramLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#ff7f00",
+      "layer": "Subset 5_0",
+      "visible": true,
+      "zorder": 4
+    }
+  },
+  "HistogramLayerState_3": {
+    "_type": "glue.viewers.histogram.state.HistogramLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#6a3d9a",
+      "layer": "Subset 6_0",
+      "visible": true,
+      "zorder": 5
+    }
+  },
+  "HistogramLayerState_4": {
+    "_type": "glue.viewers.histogram.state.HistogramLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#fb9a99",
+      "layer": "Subset 7_0",
+      "visible": true,
+      "zorder": 6
+    }
+  },
+  "HistogramLayerState_5": {
+    "_type": "glue.viewers.histogram.state.HistogramLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#e31a1c",
+      "layer": "Subset 8_0",
+      "visible": true,
+      "zorder": 7
+    }
+  },
+  "HistogramLayerState_6": {
+    "_type": "glue.viewers.histogram.state.HistogramLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#33a02c",
+      "layer": "Subset 9_0",
+      "visible": true,
+      "zorder": 8
+    }
+  },
+  "HistogramViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.histogram.qt.data_viewer.HistogramViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.histogram.qt.layer_artist.QThreadedHistogramLayerArtist",
+        "state": "HistogramLayerState"
+      },
+      {
+        "_type": "glue.viewers.histogram.qt.layer_artist.QThreadedHistogramLayerArtist",
+        "state": "HistogramLayerState_0"
+      },
+      {
+        "_type": "glue.viewers.histogram.qt.layer_artist.QThreadedHistogramLayerArtist",
+        "state": "HistogramLayerState_1"
+      },
+      {
+        "_type": "glue.viewers.histogram.qt.layer_artist.QThreadedHistogramLayerArtist",
+        "state": "HistogramLayerState_2"
+      },
+      {
+        "_type": "glue.viewers.histogram.qt.layer_artist.QThreadedHistogramLayerArtist",
+        "state": "HistogramLayerState_3"
+      },
+      {
+        "_type": "glue.viewers.histogram.qt.layer_artist.QThreadedHistogramLayerArtist",
+        "state": "HistogramLayerState_4"
+      },
+      {
+        "_type": "glue.viewers.histogram.qt.layer_artist.QThreadedHistogramLayerArtist",
+        "state": "HistogramLayerState_5"
+      },
+      {
+        "_type": "glue.viewers.histogram.qt.layer_artist.QThreadedHistogramLayerArtist",
+        "state": "HistogramLayerState_6"
+      }
+    ],
+    "pos": [
+      882,
+      0
+    ],
+    "session": "Session",
+    "size": [
+      600,
+      400
+    ],
+    "state": {
+      "legend": {
+        "alpha": 0.5858585858585859,
+        "fontsize": 10,
+        "frame_color": "#FFFFFF",
+        "location": "draggable",
+        "show_edge": true,
+        "text_color": "#000000",
+        "title": "",
+        "visible": false
+      },
+      "values": {
+        "aspect": "st__auto",
+        "common_n_bin": true,
+        "cumulative": false,
+        "hist_n_bin": 20,
+        "hist_x_max": 5205.53759765625,
+        "hist_x_min": 438.9989318847656,
+        "layers": "CallbackList_0",
+        "normalize": true,
+        "show_axes": true,
+        "x_att": "PRIMARY",
+        "x_axislabel": "st__PRIMARY",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 5205.53759765625,
+        "x_min": 438.9989318847656,
+        "x_ticklabel_size": 8,
+        "y_axislabel": "st__Normalized number",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": true,
+        "y_max": 0.008391833740328179,
+        "y_min": 2.0982731760584535e-09,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "Hmag": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Hmag"
+  },
+  "ID": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "ID"
+  },
+  "ImageLayerState": {
+    "_type": "glue.viewers.image.state.ImageLayerState",
+    "values": {
+      "alpha": 0.8,
+      "attribute": "PRIMARY",
+      "bias": 0.5,
+      "cmap": "LinearSegmentedColormap",
+      "color": "st__#595959",
+      "contrast": 1.0,
+      "global_sync": false,
+      "layer": "w5",
+      "percentile": 100,
+      "stretch": "st__linear",
+      "v_max": 5205.53759765625,
+      "v_min": 438.9989318847656,
+      "visible": true,
+      "zorder": 1
+    }
+  },
+  "ImageSubsetLayerState": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 0.52,
+      "color": "st__#1f78b4",
+      "layer": "Subset 3_0",
+      "visible": true,
+      "zorder": 2
+    }
+  },
+  "ImageSubsetLayerState_0": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#8c510a",
+      "layer": "Subset 4_0",
+      "visible": true,
+      "zorder": 3
+    }
+  },
+  "ImageSubsetLayerState_1": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#ff7f00",
+      "layer": "Subset 5_0",
+      "visible": true,
+      "zorder": 4
+    }
+  },
+  "ImageSubsetLayerState_2": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#6a3d9a",
+      "layer": "Subset 6_0",
+      "visible": true,
+      "zorder": 5
+    }
+  },
+  "ImageSubsetLayerState_3": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#fb9a99",
+      "layer": "Subset 7_0",
+      "visible": true,
+      "zorder": 6
+    }
+  },
+  "ImageSubsetLayerState_4": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#e31a1c",
+      "layer": "Subset 8_0",
+      "visible": true,
+      "zorder": 7
+    }
+  },
+  "ImageSubsetLayerState_5": {
+    "_type": "glue.viewers.image.state.ImageSubsetLayerState",
+    "values": {
+      "alpha": 0.5,
+      "color": "st__#33a02c",
+      "layer": "Subset 9_0",
+      "visible": true,
+      "zorder": 8
+    }
+  },
+  "ImageViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.image.qt.data_viewer.ImageViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageLayerArtist",
+        "state": "ImageLayerState"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState_0"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState_1"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState_2"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState_3"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState_4"
+      },
+      {
+        "_type": "glue.viewers.image.layer_artist.ImageSubsetLayerArtist",
+        "state": "ImageSubsetLayerState_5"
+      }
+    ],
+    "pos": [
+      0,
+      0
+    ],
+    "session": "Session",
+    "size": [
+      882,
+      586
+    ],
+    "state": {
+      "legend": {
+        "alpha": 0.5858585858585859,
+        "fontsize": 10,
+        "frame_color": "#FFFFFF",
+        "location": "draggable",
+        "show_edge": true,
+        "text_color": "#000000",
+        "title": "",
+        "visible": false
+      },
+      "values": {
+        "aspect": "st__equal",
+        "color_mode": "st__Colormaps",
+        "dpi": 72,
+        "layers": "CallbackList",
+        "reference_data": "w5",
+        "show_axes": true,
+        "slices": [
+          0,
+          0
+        ],
+        "x_att": "Pixel Axis 1 [x]",
+        "x_att_world": "Right Ascension",
+        "x_axislabel": "st__Right Ascension",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 1385.1132075471696,
+        "x_min": -386.1132075471696,
+        "x_ticklabel_size": 8,
+        "y_att": "Pixel Axis 0 [y]",
+        "y_att_world": "Declination",
+        "y_axislabel": "st__Declination",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 999.5,
+        "y_min": -0.5,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "Jmag": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Jmag"
+  },
+  "Ksmag": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Ksmag"
+  },
+  "LinearSegmentedColormap": {
+    "_type": "matplotlib.colors.LinearSegmentedColormap",
+    "cmap": "gray"
+  },
+  "LoadLog": {
+    "_protocol": 2,
+    "_type": "glue.core.data_factories.helpers.LoadLog",
+    "factory": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.data_factories.helpers.auto_data"
+    },
+    "force_coords": true,
+    "kwargs": [
+      []
+    ],
+    "path": "w5/w5.fits"
+  },
+  "LoadLog_0": {
+    "_protocol": 2,
+    "_type": "glue.core.data_factories.helpers.LoadLog",
+    "factory": {
+      "_type": "types.FunctionType",
+      "function": "glue.core.data_factories.helpers.auto_data"
+    },
+    "force_coords": false,
+    "kwargs": [
+      []
+    ],
+    "path": "w5/w5_psc.vot"
+  },
+  "PRIMARY": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "PRIMARY"
+  },
+  "Pixel Axis 0 [x]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 0,
+    "label": "Pixel Axis 0 [x]"
+  },
+  "Pixel Axis 0 [y]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 0,
+    "label": "Pixel Axis 0 [y]"
+  },
+  "Pixel Axis 1 [x]": {
+    "_type": "glue.core.component_id.PixelComponentID",
+    "axis": 1,
+    "label": "Pixel Axis 1 [x]"
+  },
+  "PixelSubsetState": {
+    "_type": "glue.viewers.image.pixel_selection_subset_state.PixelSubsetState",
+    "reference_data": "w5",
+    "slices": {
+      "_type": "builtins.list",
+      "contents": [
+        "slice",
+        "slice_0"
+      ]
+    }
+  },
+  "Point Sources": {
+    "_key_joins": [],
+    "_protocol": 5,
+    "_type": "glue.core.data.Data",
+    "components": [
+      [
+        "Pixel Axis 0 [x]",
+        "CoordinateComponent_3"
+      ],
+      [
+        "ID",
+        "Component_0"
+      ],
+      [
+        "RAJ2000",
+        "Component_1"
+      ],
+      [
+        "DEJ2000",
+        "Component_2"
+      ],
+      [
+        "Jmag",
+        "Component_3"
+      ],
+      [
+        "Hmag",
+        "Component_4"
+      ],
+      [
+        "Ksmag",
+        "Component_5"
+      ],
+      [
+        "__3.6_",
+        "Component_6"
+      ],
+      [
+        "__4.5_",
+        "Component_7"
+      ],
+      [
+        "__5.8_",
+        "Component_8"
+      ],
+      [
+        "__8.0_",
+        "Component_9"
+      ],
+      [
+        "__24_",
+        "Component_10"
+      ],
+      [
+        "Type",
+        "CategoricalComponent"
+      ],
+      [
+        "__4.5__-__5.8_",
+        "Component_11"
+      ],
+      [
+        "__5.8__-__8.0_",
+        "Component_12"
+      ]
+    ],
+    "label": "Point Sources",
+    "meta": {
+      "_type": "collections.OrderedDict",
+      "contents": {
+        "st__ID": "st__J_ApJ_688_1142_table2",
+        "st__description": "st__W5 source list",
+        "st__name": "st__J/ApJ/688/1142/table2"
+      }
+    },
+    "primary_owner": [
+      "Pixel Axis 0 [x]",
+      "ID",
+      "RAJ2000",
+      "DEJ2000",
+      "Jmag",
+      "Hmag",
+      "Ksmag",
+      "__3.6_",
+      "__4.5_",
+      "__5.8_",
+      "__8.0_",
+      "__24_",
+      "Type",
+      "__4.5__-__5.8_",
+      "__5.8__-__8.0_"
+    ],
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.8,
+      "color": "#595959",
+      "linestyle": "solid",
+      "linewidth": 1,
+      "marker": "o",
+      "markersize": 3,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Subset 3_1",
+      "Subset 4_1",
+      "Subset 5_1",
+      "Subset 6_1",
+      "Subset 7_1",
+      "Subset 8_1",
+      "Subset 9_1"
+    ],
+    "uuid": "a7b7f3e0-0f12-4bbc-8aa1-a7edb0002d04"
+  },
+  "RAJ2000": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "RAJ2000"
+  },
+  "RangeSubsetState": {
+    "_type": "glue.core.subset.RangeSubsetState",
+    "att": "Pixel Axis 1 [x]",
+    "hi": 369.139599677895,
+    "lo": 194.64142601838324
+  },
+  "RectangularROI": {
+    "_type": "glue.core.roi.RectangularROI",
+    "theta": 0,
+    "xmax": 682.2830188679245,
+    "xmin": 653.9811320754718,
+    "ymax": 617.4245283018868,
+    "ymin": 589.122641509434
+  },
+  "RectangularROI_0": {
+    "_type": "glue.core.roi.RectangularROI",
+    "theta": 0,
+    "xmax": 762.4716981132076,
+    "xmin": 665.7735849056605,
+    "ymax": 669.3113207547169,
+    "ymin": 586.7641509433962
+  },
+  "RectangularROI_1": {
+    "_type": "glue.core.roi.RectangularROI",
+    "theta": 0,
+    "xmax": 135.11320754716996,
+    "xmin": 97.37735849056617,
+    "ymax": 541.9528301886792,
+    "ymin": 530.1603773584906
+  },
+  "RectangularROI_2": {
+    "_type": "glue.core.roi.RectangularROI",
+    "theta": 0,
+    "xmax": 42.94975520375267,
+    "xmin": 42.78991123837954,
+    "ymax": 61.15308866588235,
+    "ymin": 61.02064793008403
+  },
+  "Right Ascension": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Right Ascension"
+  },
+  "RoiSubsetState": {
+    "_type": "glue.core.subset.RoiSubsetState",
+    "pretransform": null,
+    "roi": "CircularROI",
+    "xatt": "Pixel Axis 1 [x]",
+    "yatt": "Pixel Axis 0 [y]"
+  },
+  "RoiSubsetState_0": {
+    "_type": "glue.core.subset.RoiSubsetState",
+    "pretransform": null,
+    "roi": "RectangularROI",
+    "xatt": "Pixel Axis 1 [x]",
+    "yatt": "Pixel Axis 0 [y]"
+  },
+  "RoiSubsetState_1": {
+    "_type": "glue.core.subset.RoiSubsetState",
+    "pretransform": null,
+    "roi": "RectangularROI_0",
+    "xatt": "Pixel Axis 1 [x]",
+    "yatt": "Pixel Axis 0 [y]"
+  },
+  "RoiSubsetState_2": {
+    "_type": "glue.core.subset.RoiSubsetState",
+    "pretransform": null,
+    "roi": "RectangularROI_1",
+    "xatt": "Pixel Axis 1 [x]",
+    "yatt": "Pixel Axis 0 [y]"
+  },
+  "RoiSubsetState_3": {
+    "_type": "glue.core.subset.RoiSubsetState",
+    "pretransform": null,
+    "roi": "RectangularROI_2",
+    "xatt": "RAJ2000",
+    "yatt": "DEJ2000"
+  },
+  "ScatterLayerState": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.8,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "ID",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 17771,
+      "cmap_vmin": 1,
+      "color": "st__#595959",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "Point Sources",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 3,
+      "size_att": "ID",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 17771,
+      "size_vmin": 1,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "ID",
+      "vy_att": "ID",
+      "xerr_att": "ID",
+      "xerr_visible": false,
+      "yerr_att": "ID",
+      "yerr_visible": false,
+      "zorder": 1
+    }
+  },
+  "ScatterLayerState_0": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.52,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "ID",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 17771,
+      "cmap_vmin": 1,
+      "color": "st__#1f78b4",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "Subset 3_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "ID",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 17771,
+      "size_vmin": 1,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "ID",
+      "vy_att": "ID",
+      "xerr_att": "ID",
+      "xerr_visible": false,
+      "yerr_att": "ID",
+      "yerr_visible": false,
+      "zorder": 2
+    }
+  },
+  "ScatterLayerState_1": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.5,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "ID",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 17771,
+      "cmap_vmin": 1,
+      "color": "st__#8c510a",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "Subset 4_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "ID",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 17771,
+      "size_vmin": 1,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "ID",
+      "vy_att": "ID",
+      "xerr_att": "ID",
+      "xerr_visible": false,
+      "yerr_att": "ID",
+      "yerr_visible": false,
+      "zorder": 3
+    }
+  },
+  "ScatterLayerState_2": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.5,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "ID",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 17771,
+      "cmap_vmin": 1,
+      "color": "st__#ff7f00",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "Subset 5_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "ID",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 17771,
+      "size_vmin": 1,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "ID",
+      "vy_att": "ID",
+      "xerr_att": "ID",
+      "xerr_visible": false,
+      "yerr_att": "ID",
+      "yerr_visible": false,
+      "zorder": 4
+    }
+  },
+  "ScatterLayerState_3": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.5,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "ID",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 17771,
+      "cmap_vmin": 1,
+      "color": "st__#6a3d9a",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "Subset 6_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "ID",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 17771,
+      "size_vmin": 1,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "ID",
+      "vy_att": "ID",
+      "xerr_att": "ID",
+      "xerr_visible": false,
+      "yerr_att": "ID",
+      "yerr_visible": false,
+      "zorder": 5
+    }
+  },
+  "ScatterLayerState_4": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.5,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "ID",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 17771,
+      "cmap_vmin": 1,
+      "color": "st__#fb9a99",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "Subset 7_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "ID",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 17771,
+      "size_vmin": 1,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "ID",
+      "vy_att": "ID",
+      "xerr_att": "ID",
+      "xerr_visible": false,
+      "yerr_att": "ID",
+      "yerr_visible": false,
+      "zorder": 6
+    }
+  },
+  "ScatterLayerState_5": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.5,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "ID",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 17771,
+      "cmap_vmin": 1,
+      "color": "st__#e31a1c",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "Subset 8_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "ID",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 17771,
+      "size_vmin": 1,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "ID",
+      "vy_att": "ID",
+      "xerr_att": "ID",
+      "xerr_visible": false,
+      "yerr_att": "ID",
+      "yerr_visible": false,
+      "zorder": 7
+    }
+  },
+  "ScatterLayerState_6": {
+    "_type": "glue.viewers.scatter.state.ScatterLayerState",
+    "values": {
+      "alpha": 0.5,
+      "cmap": "LinearSegmentedColormap",
+      "cmap_att": "ID",
+      "cmap_mode": "st__Fixed",
+      "cmap_vmax": 17771,
+      "cmap_vmin": 1,
+      "color": "st__#33a02c",
+      "density_contrast": 1.0,
+      "density_map": false,
+      "fill": true,
+      "layer": "Subset 9_1",
+      "line_visible": false,
+      "linestyle": "st__solid",
+      "linewidth": 1,
+      "markers_visible": true,
+      "points_mode": "st__auto",
+      "size": 7,
+      "size_att": "ID",
+      "size_mode": "st__Fixed",
+      "size_scaling": 1,
+      "size_vmax": 17771,
+      "size_vmin": 1,
+      "stretch": "st__log",
+      "vector_arrowhead": false,
+      "vector_mode": "st__Cartesian",
+      "vector_origin": "st__middle",
+      "vector_scaling": 0.9770099572992254,
+      "vector_visible": false,
+      "visible": true,
+      "vx_att": "ID",
+      "vy_att": "ID",
+      "xerr_att": "ID",
+      "xerr_visible": false,
+      "yerr_att": "ID",
+      "yerr_visible": false,
+      "zorder": 8
+    }
+  },
+  "ScatterViewer": {
+    "_protocol": 1,
+    "_type": "glue.viewers.scatter.qt.data_viewer.ScatterViewer",
+    "layers": [
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_0"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_1"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_2"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_3"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_4"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_5"
+      },
+      {
+        "_type": "glue.viewers.scatter.layer_artist.ScatterLayerArtist",
+        "state": "ScatterLayerState_6"
+      }
+    ],
+    "pos": [
+      880,
+      400
+    ],
+    "session": "Session",
+    "size": [
+      600,
+      400
+    ],
+    "state": {
+      "legend": {
+        "alpha": 0.5858585858585859,
+        "fontsize": 10,
+        "frame_color": "#FFFFFF",
+        "location": "draggable",
+        "show_edge": true,
+        "text_color": "#000000",
+        "title": "",
+        "visible": false
+      },
+      "values": {
+        "angle_unit": "st__radians",
+        "aspect": "st__auto",
+        "dpi": 71.30820648960312,
+        "layers": "CallbackList_1",
+        "plot_mode": "st__rectilinear",
+        "show_axes": true,
+        "x_att": "RAJ2000",
+        "x_axislabel": "st__RAJ2000",
+        "x_axislabel_size": 10,
+        "x_axislabel_weight": "st__normal",
+        "x_log": false,
+        "x_max": 46.237973919999995,
+        "x_min": 40.88320108,
+        "x_ticklabel_size": 8,
+        "y_att": "DEJ2000",
+        "y_axislabel": "st__DEJ2000",
+        "y_axislabel_size": 10,
+        "y_axislabel_weight": "st__normal",
+        "y_log": false,
+        "y_max": 61.58097412,
+        "y_min": 59.15628988,
+        "y_ticklabel_size": 8
+      }
+    }
+  },
+  "Session": {
+    "_type": "glue.core.session.Session"
+  },
+  "Subset 3": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 3",
+    "state": "RangeSubsetState",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.52,
+      "color": "#1f78b4",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Subset 3_0",
+      "Subset 3_1"
+    ]
+  },
+  "Subset 3_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 3",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.52,
+      "color": "#1f78b4",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 3_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 3",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.52,
+      "color": "#1f78b4",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 4": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 4",
+    "state": "RoiSubsetState",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#8c510a",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Subset 4_0",
+      "Subset 4_1"
+    ]
+  },
+  "Subset 4_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 4",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#8c510a",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 4_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 4",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#8c510a",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 5": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 5",
+    "state": "PixelSubsetState",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#ff7f00",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Subset 5_0",
+      "Subset 5_1"
+    ]
+  },
+  "Subset 5_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 5",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#ff7f00",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 5_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 5",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#ff7f00",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 6": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 6",
+    "state": "RoiSubsetState_0",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#6a3d9a",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Subset 6_0",
+      "Subset 6_1"
+    ]
+  },
+  "Subset 6_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 6",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#6a3d9a",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 6_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 6",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#6a3d9a",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 7": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 7",
+    "state": "RoiSubsetState_1",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#fb9a99",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Subset 7_0",
+      "Subset 7_1"
+    ]
+  },
+  "Subset 7_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 7",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#fb9a99",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 7_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 7",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#fb9a99",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 8": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 8",
+    "state": "RoiSubsetState_2",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#e31a1c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Subset 8_0",
+      "Subset 8_1"
+    ]
+  },
+  "Subset 8_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 8",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#e31a1c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 8_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 8",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#e31a1c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 9": {
+    "_type": "glue.core.subset_group.SubsetGroup",
+    "label": "Subset 9",
+    "state": "RoiSubsetState_3",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#33a02c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Subset 9_0",
+      "Subset 9_1"
+    ]
+  },
+  "Subset 9_0": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 9",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#33a02c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Subset 9_1": {
+    "_type": "glue.core.subset_group.GroupedSubset",
+    "group": "Subset 9",
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.5,
+      "color": "#33a02c",
+      "linestyle": "solid",
+      "linewidth": 2.5,
+      "marker": "o",
+      "markersize": 7,
+      "preferred_cmap": null
+    }
+  },
+  "Type": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "Type"
+  },
+  "WCS": {
+    "_type": "astropy.wcs.wcs.WCS",
+    "header": "WCSAXES =                    2 / Number of coordinate axes                      CRPIX1  =                500.5 / Pixel coordinate of reference point            CRPIX2  =                500.5 / Pixel coordinate of reference point            CDELT1  =               -0.003 / [deg] Coordinate increment at reference point  CDELT2  =                0.003 / [deg] Coordinate increment at reference point  CUNIT1  = 'deg'                / Units of coordinate increment and value        CUNIT2  = 'deg'                / Units of coordinate increment and value        CTYPE1  = 'RA---TAN'           / Right ascension, gnomonic projection           CTYPE2  = 'DEC--TAN'           / Declination, gnomonic projection               CRVAL1  =                43.46 / [deg] Coordinate value at reference point      CRVAL2  =                60.38 / [deg] Coordinate value at reference point      LONPOLE =                180.0 / [deg] Native longitude of celestial pole       LATPOLE =                60.38 / [deg] Native latitude of celestial pole        MJDREF  =                  0.0 / [d] MJD of fiducial time                       RADESYS = 'FK5'                / Equatorial coordinate system                   EQUINOX =               2000.0 / [yr] Equinox of equatorial coordinates         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             "
+  },
+  "__24_": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "__24_"
+  },
+  "__3.6_": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "__3.6_"
+  },
+  "__4.5_": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "__4.5_"
+  },
+  "__4.5__-__5.8_": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "__4.5__-__5.8_"
+  },
+  "__5.8_": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "__5.8_"
+  },
+  "__5.8__-__8.0_": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "__5.8__-__8.0_"
+  },
+  "__8.0_": {
+    "_type": "glue.core.component_id.ComponentID",
+    "label": "__8.0_"
+  },
+  "__main__": {
+    "_type": "glue.app.qt.application.GlueApplication",
+    "data": "DataCollection",
+    "plugins": [
+      "glue.io.qt.directory_importer",
+      "glue.viewers.image.qt",
+      "glue.viewers.table.qt",
+      "glue.core.data_exporters",
+      "glue.plugins.coordinate_helpers",
+      "glue.viewers.profile.qt",
+      "glue.plugins.export_d3po",
+      "glue.viewers.scatter.qt",
+      "glue.plugins.dendro_viewer.qt",
+      "glue.plugins.wcs_autolinking",
+      "glue.io.formats.fits",
+      "glue.viewers.histogram.qt",
+      "glue.plugins.tools.pv_slicer.qt",
+      "glue.plugins.tools"
+    ],
+    "session": "Session",
+    "tab_names": [
+      "Tab 1"
+    ],
+    "viewers": [
+      [
+        "ImageViewer",
+        "HistogramViewer",
+        "ScatterViewer"
+      ]
+    ]
+  },
+  "slice": {
+    "_type": "builtins.slice",
+    "start": 582,
+    "step": null,
+    "stop": 583
+  },
+  "slice_0": {
+    "_type": "builtins.slice",
+    "start": 615,
+    "step": null,
+    "stop": 616
+  },
+  "w5": {
+    "_key_joins": [],
+    "_protocol": 5,
+    "_type": "glue.core.data.Data",
+    "components": [
+      [
+        "Pixel Axis 0 [y]",
+        "CoordinateComponent"
+      ],
+      [
+        "Pixel Axis 1 [x]",
+        "CoordinateComponent_0"
+      ],
+      [
+        "Declination",
+        "CoordinateComponent_1"
+      ],
+      [
+        "Right Ascension",
+        "CoordinateComponent_2"
+      ],
+      [
+        "PRIMARY",
+        "Component"
+      ]
+    ],
+    "coords": "WCS",
+    "label": "w5",
+    "meta": {
+      "_type": "collections.OrderedDict",
+      "contents": {
+        "st__BITPIX": -32,
+        "st__CDELT1": -0.003,
+        "st__CDELT2": 0.003,
+        "st__COMMENT": [
+          "",
+          " SkyView Survey metadata",
+          "",
+          "Provenance:  WISE Archive (IRSA/IPAC)",
+          "Copyright:   WISE data is in the public domain but publications are re",
+          "          quested to include the       statment:        This publicati",
+          "          on makes use of data products from the Wide-field Infrared S",
+          "          urvey Explorer,       which is a joint project of the Univer",
+          "          sity of California, Los Angeles,       and the Jet Propulsio",
+          "          n Laboratory/California Institute of Technology,       funde",
+          "          d by the National Aeronautics and Space Administration.",
+          "Regime:      Infrared",
+          "NSurvey:     4",
+          "Frequency:   25 THz (12 micrometers)",
+          "Bandpass:    18-40 THz",
+          "Coverage:    All sky",
+          "PixelScale:  1.375\"",
+          "PixelUnits:  DN",
+          "Resolution:  6.5\"",
+          "Coordinates: Equatorial",
+          "Projection:  Sine",
+          "Epoch:       January 7 to August 6, 2010",
+          "Reference:    Wright et al (2010)",
+          "",
+          "Survey specific cards",
+          ""
+        ],
+        "st__CRPIX1": 500.5,
+        "st__CRPIX2": 500.5,
+        "st__CRVAL1": 43.46,
+        "st__CRVAL2": 60.38,
+        "st__CTYPE1": "st__RA---TAN",
+        "st__CTYPE2": "st__DEC--TAN",
+        "st__EQUINOX": 2000.0,
+        "st__HISTORY": [
+          "",
+          " Settings used in processing:",
+          "",
+          "cache = /skyview8/cache/surveys/",
+          "coordinates = J2000.0",
+          "coordselect = J2000",
+          "cs = standard",
+          "deedger = skyview.process.Deedger",
+          "descriptionxslt = cgifiles/description.xsl",
+          "dummy",
+          "equinox = 2000",
+          "finalpostprocessor = skyview.ij.IJProcessor,skyview.data.BoxSmoother,sky",
+          "float = on",
+          "footertemplate = cgifiles/skyfooter.html",
+          "galleryxslt = cgifiles/gallerymultipage.xsl",
+          "headertemplate = cgifiles/skyheader.html",
+          "htmlwriter = skyview.request.HTMLWriter",
+          "imagefactory = skyview.survey.CachingImageFactory",
+          "imagesize = 1.6",
+          "imscale = 3",
+          "localurl = http://skyview.gsfc.nasa.gov/surveys,/skyview/htdocs/surveys",
+          "lut = colortables/b-w-linear.bin",
+          "lutcbarpath = /images/colorbars/",
+          "mosaicker = skyview.process.Mosaicker",
+          "name = WISE 12 Micron All-Sky Survey",
+          "noexit =",
+          "nullimagedir = ../images/nodata",
+          "nwindow = on",
+          "output = ../tempspace/fits/skv7286600634832",
+          "outputroot = ../tempspace/fits/",
+          "pixels = 1000",
+          "position = 43.46, 60.38",
+          "postprocessor = skyview.ij.IJProcessor,skyview.request.HTMLWriter",
+          "projection = Tan",
+          "quicklook = jpeg",
+          "reqxpos = 43.46",
+          "reqypos = 60.38",
+          "resolver = SIMBAD-NED",
+          "rgbtemplate = cgifiles/skyrgb.html",
+          "rgbwriter = skyview.request.RGBWriter",
+          "sampler = Default",
+          "savebysurvey",
+          "scale = 0.0003819",
+          "scaling = loglog",
+          "settingsupdaters = BatchCompatibility,SettingsFixer,skyview.request.Toas",
+          "shortname = Wise W3,Wise 12, WiseW3, Wise12",
+          "siabase = http://skyview.gsfc.nasa.gov/cgi-bin/images?",
+          "siaimagetimeout = 1200000",
+          "siapfilterfield = VOX:BandPass_ID",
+          "siapfiltervalue = W3",
+          "siapurl = http://irsa.ipac.caltech.edu/ibe/sia/wise/allsky/4band_p3am_cd",
+          "size = 3.0,3.0",
+          "spcoordinates =",
+          "survey = WISE 12",
+          "surveyfinder = skyview.survey.XMLSurveyFinder",
+          "surveymanifest = surveys/survey.manifest",
+          "surveysheader = cgifiles/survey.header",
+          "surveytemplate = cgifiles/skysurvey.html",
+          "url.heasarcbase = http://heasarc.gsfc.nasa.gov/xamin/vo/cone?table=",
+          "url.ned = http://nedwww.ipac.caltech.edu/cgi-bin/nph-NEDobjsearch?search",
+          "url.simbad = http://simbad.u-strasbg.fr/simbad-conesearch.pl?",
+          "url.vizierbase = http://vizier.u-strasbg.fr/viz-bin/votable/-dtd/-A?-out",
+          "urlcoordinates = http://heasarc.gsfc.nasa.gov/cgi-bin/Tools/convcoord/co",
+          "urllocalhelp = http://skyview.gsfc.nasa.gov/help/help.html",
+          "webrootpath = /skyview/htdocs/",
+          "",
+          " Map generated at: Mon Sep 24 16:13:12 EDT 2012",
+          "",
+          " Resampler used: NNSampler",
+          "",
+          "",
+          "Image mosaicking using skyview.geometry.Mosaicker",
+          "",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0460p590_ab41-w3-int-3.fits",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0432p590_ab41-w3-int-3.fits",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0403p590_ab41-w3-int-3.fits",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0450p605_ab41-w3-int-3.fits",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0420p605_ab41-w3-int-3.fits",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0390p605_ab41-w3-int-3.fits",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0480p605_ab41-w3-int-3.fits",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0442p620_ab41-w3-int-3.fits",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0410p620_ab41-w3-int-3.fits",
+          "  Used image:/skyview8/cache/surveys/Wise_W3/0473p620_ab41-w3-int-3.fits",
+          "",
+          "",
+          "Edge adjustments applied (skyview.geometry.DeedgerList",
+          "",
+          "     Image 0403p590_ab41-w3-int-3.fits offset by -10.0955810546875",
+          "     Image 0432p590_ab41-w3-int-3.fits offset by -14.76416015625",
+          "     Image 0460p590_ab41-w3-int-3.fits offset by -18.1815185546875",
+          "     Image 0390p605_ab41-w3-int-3.fits offset by 1.0014190673828125",
+          "     Image 0410p620_ab41-w3-int-3.fits offset by -5.81903076171875",
+          "     Image 0442p620_ab41-w3-int-3.fits offset by -1.201446533203125",
+          "     Image 0450p605_ab41-w3-int-3.fits offset by -12.527557373046875",
+          "     Image 0473p620_ab41-w3-int-3.fits offset by -8.7635498046875",
+          "     Image 0480p605_ab41-w3-int-3.fits offset by -10.600997924804688",
+          ""
+        ],
+        "st__NAXIS": 2,
+        "st__NAXIS1": 1000,
+        "st__NAXIS2": 1000,
+        "st__RADESYS": "st__FK5",
+        "st__SIMPLE": true,
+        "st__SURVEY": "st__WISE 12 micron allsky release"
+      }
+    },
+    "primary_owner": [
+      "Pixel Axis 0 [y]",
+      "Pixel Axis 1 [x]",
+      "Declination",
+      "Right Ascension",
+      "PRIMARY"
+    ],
+    "style": {
+      "_type": "glue.core.visual.VisualAttributes",
+      "alpha": 0.8,
+      "color": "#ececec",
+      "linestyle": "solid",
+      "linewidth": 1,
+      "marker": "o",
+      "markersize": 3,
+      "preferred_cmap": null
+    },
+    "subsets": [
+      "Subset 3_0",
+      "Subset 4_0",
+      "Subset 5_0",
+      "Subset 6_0",
+      "Subset 7_0",
+      "Subset 8_0",
+      "Subset 9_0"
+    ],
+    "uuid": "60c0d26a-ffab-4f27-bc4a-ade66c2ec3b2"
+  }
+}
