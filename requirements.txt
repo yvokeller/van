@@ -205,6 +205,7 @@ https://conda.anaconda.org/conda-forge/osx-arm64/h5py-3.8.0-nompi_py310h3c889c5_
 https://conda.anaconda.org/conda-forge/osx-arm64/imagecodecs-2023.1.23-py310hcb660b6_2.conda
 https://conda.anaconda.org/conda-forge/noarch/imageio-2.28.1-pyh24c5eb1_0.conda
 https://conda.anaconda.org/conda-forge/noarch/jupyter_client-8.2.0-pyhd8ed1ab_0.conda
+https://conda.anaconda.org/conda-forge/osx-arm64/nibabel-5.1.0-py310hbe9552e_2.conda
 https://conda.anaconda.org/conda-forge/osx-arm64/pandas-2.0.1-py310h1cdf563_1.conda
 https://conda.anaconda.org/conda-forge/noarch/prompt_toolkit-3.0.38-hd8ed1ab_0.conda
 https://conda.anaconda.org/conda-forge/osx-arm64/pyerfa-2.0.0.3-py310hf1a086a_0.conda
