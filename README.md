@@ -1,4 +1,4 @@
-# Visual Analytics
+# Visual Analytics
 
 ## Run glue
 
